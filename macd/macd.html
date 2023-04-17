@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">MAC-D</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" 
+                        aria-expanded="false">Products</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Burger</a>
+                            <a class="dropdown-item" href="#">Drinks</a>
+                            <a class="dropdown-item" href="#">Fries</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            </div>
+    </nav>
+</div>
+<br>
+<div class="container">
+  <div class="div1" style="text-align: center;">
+      <h2>BE READY FOODY'S - Your Order Details</h2>
+  </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1">
+            <img src="../macd/img/hamburger-1238246_1920.jpg" class="img-fluid">
+        </div>
+        <div class="col-sm-3"><div class="mb-3">
+            <select class="form-select" aria-label="default select example" id="item1">
+                <option selected>Select crispy burger</option>
+                <option value="Aloo tikki">Aloo tikki</option>
+                <option value="Chesse burger">Chesse burger</option>
+                <option value="Veg burger">Veg burger</option>
+            </select>
+        </div></div>
+        <div class="col-sm-3">
+            <div class="mb-3">
+            <input type="text"
+                class="form-control" name="" id="qnt1" aria-describedby="helpId" placeholder="Enter Quantity">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <button onclick="demo1()" class="btn btn-dark">Order Now</button></div>
+        <div class="col-sm-3">
+            <div class="mb-3">
+            <!-- <span id="bill"><input type="text"></span> -->
+            <input type="text"
+                class="form-control" name="" id="bill1" aria-describedby="helpId" placeholder="Total-0">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-1">
+            <img src="../macd/img/cocacola-5016273_1920.jpg" class="img-fluid">
+        </div>
+        <div class="col-sm-3"><div class="mb-3">
+            <select class="form-select" aria-label="default select example" id="item2">
+                <option selected>Select Your Drinks</option>
+                <option value="coca">coca</option>
+                <option value="Thumbsup">Thumbsup</option>
+                <option value="pepsi">pepsi</option>
+            </select>
+        </div></div>
+        <div class="col-sm-3">
+            <div class="mb-3">
+              <input type="text"
+                class="form-control" name="" id="qnt2" aria-describedby="helpId" placeholder="Enter Quantity">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-dark" onclick="demo2()">Order Now</button>
+        </div>
+        <div class="col-sm-3">
+            <div class="mb-3">
+                <input type="text"
+                class="form-control" name="" id="bill2" aria-describedby="helpId" placeholder="Total-0">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-1">
+            <img src="../macd/img/french-fries-1351062_1920.jpg" class="img-fluid">
+        </div>
+        <div class="col-sm-3"><div class="mb-3">
+            <select class="form-select form-select-lg" name="" id="item3" >
+                <option selected>Select Your frenchfries</option>
+                <option value="frenchfries small-S">frenchfries small-S</option>
+                <option value="frenchfries medium-M">frenchfries medium-M</option>
+                <option value="frenchfries large-L">frenchfries large-L</option>
+            </select>
+        </div></div>
+        <div class="col-sm-3">
+            <div class="mb-3">
+              <input type="text"
+                class="form-control" name="" id="qnt3" aria-describedby="helpId" placeholder="Enter Quantity">
+            </div>
+        </div>
+        <div class="col-sm-2"><button class="btn btn-dark" onclick="demo3()">Order Now</button></div>
+        <div class="col-sm-3">
+            <div class="mb-3">
+                <input type="text"
+                class="form-control" name="" id="bill3" aria-describedby="helpId" placeholder="Total-0">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row" >
+            <div class="col-sm-3"></div>
+      <div class="col-sm-4" style="text-align: center; background-color: yellow;">
+        <br>
+        <label style="border: 3px solid black;" ><h5>TOTAL AMOUNT IS TO BE PAID-</h5></label>
+      </div>
+      <div class="col-sm-3" style="background-color: yellow;">
+        <br><button onclick="demo4()" class=" btn btn-dark">click</button>
+        <input type="text" placeholder="0" id="bill4" style="border: 3px solid black;">
+        <!-- <span  id="totalbill" style="border: 3px solid black;"></span> -->
+        
+      </div>
+    </div>
+    </div>
+
+</div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
+<script>
+    function demo1()
+    {
+        var item1 = document.getElementById('item1').value
+        var qnt1 = parseInt(document.getElementById('qnt1').value)
+        var price = 0
+        if(item1 == "Aloo tikki")
+        {
+            price = 60
+        }
+        else if(item1 == "Chesse burger")
+        {
+            price = 70
+        }
+        else if(item1 == "Veg burger")
+        {
+            price = 80
+        }
+        var bill1= parseInt(price * qnt1)
+
+        document.getElementById('bill1').value = bill1
+    }
+    function demo2()
+    {
+        var item2 = document.getElementById('item2').value
+        var qnt2 = parseInt(document.getElementById('qnt2').value)
+        var price = 0
+       
+        if(item2 == "coca")
+        {
+            price = 20
+        }
+        else if(item2 == "Thumbsup")
+        {
+            price = 30
+        }
+        else if(item2 == "pepsi")
+        {
+            price = 40
+        }
+        var bill2= parseInt(price * qnt2)
+
+        document.getElementById('bill2').value = bill2
+    }
+    function demo3()
+    {
+        var item3 = document.getElementById('item3').value
+        var qnt3 = parseInt(document.getElementById('qnt3').value)
+        var price = 0
+        if(item3 == "frenchfries small-S")
+        {
+            price = 40
+        }
+        else if(item3 == "frenchfries medium-M")
+        {
+            price = 60
+        }
+        else if(item3 == "frenchfries large-L")
+        {
+            price = 80
+        }
+        var bill3= parseInt(price * qnt3)
+
+        document.getElementById('bill3').value = bill3
+    }
+    
+    function demo4()
+    {
+         b1 = document.getElementById('bill1').value
+         b2 = document.getElementById('bill2').value
+         b3 = document.getElementById('bill3').value
+
+         total =b1 + b2 + b3
+       
+        console.log(total)
+        
+        document.getElementById('bill4').value = total
+    }
+</script>
